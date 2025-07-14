@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>研究者サイト</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>研究者サイト</h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showPage('home')">Home</a></li>
+        <li><a href="#" onclick="showPage('publication')">Publication</a></li>
+        <li><a href="#" onclick="showPage('research')">Research</a></li>
+        <li><a href="#" onclick="showPage('activity')">Activity</a></li>
+        <li><a href="#" onclick="showPage('about')">About Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="page active">
+      <h2>Welcome</h2>
+      <p>ようこそ私の研究サイトへ。</p>
+    </section>
+
+    <section id="publication" class="page">
+      <h2>Publications</h2>
+      <ul>
+        <li>論文タイトル1 - 学会名, 年</li>
+        <li>論文タイトル2 - 学会名, 年</li>
+      </ul>
+    </section>
+
+    <section id="research" class="page">
+      <h2>Research</h2>
+      <p>私の研究は主に○○分野に関するものです。</p>
+    </section>
+
+    <section id="activity" class="page">
+      <h2>Activity</h2>
+      <p>講演・学会活動などを記録しています。</p>
+    </section>
+
+    <section id="about" class="page">
+      <h2>About Me</h2>
+      <p>○○大学・○○研究科所属。専門は××です。</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 研究者氏名</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
